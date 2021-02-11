@@ -13,7 +13,13 @@ $yellow="\033[1;33m";
 
 $token = Array('VElnZExQUDV4ZnVLWmJnN3NpVzJoSGVjREZqYWdZallEZHNKN1dJMVIwVT0',
                 'UnRVa01DNCtOV0M4d1pORjJ4U3h5Ny9FMUlXQjBpV0JldmhIdnY1c0FlMD0',
-                'L3B2NkhuZUlTVnVoc2VTdVMyYXRIeDJpRzA4Sk9NVTdPU0hjMGYrR2Z6QT0');
+                'L3B2NkhuZUlTVnVoc2VTdVMyYXRIeDJpRzA4Sk9NVTdPU0hjMGYrR2Z6QT0',
+                'UnJ0ZHRhWUxRaGRsR2FoRzlsdGh4R0dYV21OSXo1dzJPdldUMlFYVjVMQT0',
+                'MWQ5b0VJVHhLTHR4bUI2emx6cEVrcUJkZ0ZHZmxxcW9vUVIzZXJPd0hpaz0',
+                'd0JZNGVkOGNRRnlrUEVFUlNyUGhEcnRCRGlBdGFURWdmSkhVS3MvSXJJMD0',
+                'd1RaMHB0cHhrbnZGMW0yTmQyWGFlRFFuYWdUTXRKNmlLdGFsSUZPSWtZUT0',
+                'TzVGazI3T3NkcXloS1NVUWJVRXRZTnpMNDFoeUMyV28zY1BiNXU5OGpQYz0',
+                'eTVKM0tXS2pYNk1QNU05WC9rUzRsWWtlcWU0ekFJZXdaOUZGLy8xc3hyQT0');
 $token = $token[array_rand($token)];
 
 @system(clear);
