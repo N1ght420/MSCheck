@@ -1,5 +1,5 @@
 # MSCheck
-Microsoft Digital License Key Checker
+Microsoft Product License Key Checker
 ## How to Use
 `php ms.php`
 <br>OR<br>
