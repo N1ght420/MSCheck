@@ -19,7 +19,18 @@ $token = Array('VElnZExQUDV4ZnVLWmJnN3NpVzJoSGVjREZqYWdZallEZHNKN1dJMVIwVT0',
                 'd0JZNGVkOGNRRnlrUEVFUlNyUGhEcnRCRGlBdGFURWdmSkhVS3MvSXJJMD0',
                 'd1RaMHB0cHhrbnZGMW0yTmQyWGFlRFFuYWdUTXRKNmlLdGFsSUZPSWtZUT0',
                 'TzVGazI3T3NkcXloS1NVUWJVRXRZTnpMNDFoeUMyV28zY1BiNXU5OGpQYz0',
-                'eTVKM0tXS2pYNk1QNU05WC9rUzRsWWtlcWU0ekFJZXdaOUZGLy8xc3hyQT0');
+                'eTVKM0tXS2pYNk1QNU05WC9rUzRsWWtlcWU0ekFJZXdaOUZGLy8xc3hyQT0',
+                'bVo4UHBRMDBPbkg0N0pJZEMzRlNWMTFJdnNrZkduYm1BejFjcy9hWXFJWT0',
+                'eVI1c25GMFRQMXl5U2UvcWpQL0F1YngrQ1phSDdSOUQ1R01mL3J1NHpqZz0',
+                'cnIzSzlTOE5ySnVkajVHUEhmQitKeTYvaFloUFNlcFRUSmxWVGRmUzI3RT0',
+                'NnE3Y2ZRcDN3SUxabnh2emtiSk1nT1FMbG9FM3pjOE1EK1E5dXRFcDVIbz0',
+                'anVXMkI0c3R4RXVaMEtRREV3b0puelVhTVlaUmVoK1g3ZTdBNE9aZVZvOD0',
+                'SUMySm5ZTHJkOVJWR2xxUkRRSXduM2IrbVFHVlRnWnBBa0FYNThKak5Zcz0',
+                'SzNIS05DNjBwZGZTWXk2ckdtRDVlbDZsMDVDbWJMRE42dUNsd2hycDhRST0',
+                'Rmk0dnNIcHpyZ1hYQm1PMjQvYnFZM3B0d2xWejJCTDNKb0cvcksxb0I2Zz0',
+                'TFp6WmFSQ2lvcmk1YnVZcGN3RzVwY0VZSGZLQkE2SCthb2ZsRlREM3dVRT0',
+                'ZWdZWjZTaGoxZWhnLzFjMW12L3lqWWRTNmtpZ3ZRc0J0aGhvV0F5SXhCOD0',
+                'RlBtVTVqdCtVT2NQTVJuNUI3ZExBQUpFNUJvQWdwRjJtSHZxVlg0bFl2dz0');
 $token = $token[array_rand($token)];
 
 @system(clear);
@@ -42,6 +53,7 @@ if ($argv[1] == "-l"){
     $baca = fread($buka,$ukuran);
     $lists = explode("\n",$baca);
     foreach ($lists as $key){
+        $token = $token[array_rand($token)];
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
